@@ -6,12 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <style>
+        .row .col {
+            border: 2px solid olive;
+            margin-bottom: 5px;
+        }
+        .own{
+            border: 2px solid olive;
+            margin-bottom: 5px;
+        }
+        .own2{
+            height: 100px;
+            background-color: rgba(194, 240, 224, 0.664);
+            margin-bottom: 10px;
+        }
+        /* .own3{
+            height: 50px;
+            border: 2px solid olive;
+            margin-bottom: 5px;
+        } */
+    </style>
 </head>
 <body>
     <header>
 
     </header>
     <section>
+        <h1>Grid system</h1>
         <div class="container">
             <div class="row">
               <div class="col">
@@ -25,6 +46,181 @@
               </div>
             </div>
           </div>
+          <br>
+          <!-- ---------------------------------------------- -->
+          <br>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                1 of 2
+              </div>
+              <div class="col">
+                2 of 2
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                1 of 3
+              </div>
+              <div class="col">
+                2 of 3
+              </div>
+              <div class="col">
+                3 of 3
+              </div>
+            </div>
+          </div>
+          <br>
+          <!-- ---------------------------------------------- -->
+          <br>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                1 of 3
+              </div>
+              <div class="col-6 own">
+                2 of 3 (wider by Using col-6 class)
+              </div>
+              <div class="col">
+                3 of 3 
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                1 of 3
+              </div>
+              <div class="col-5 own">
+                2 of 3 (wider by Using col-5 class)
+              </div>
+              <div class="col">
+                3 of 3
+              </div>
+            </div>
+          </div>
+          <br>
+          <!-- ---------------------------------------------- -->
+          <br>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 own">col-sm-8</div>
+              <div class="col-sm-4 own">col-sm-4</div>
+            </div>
+            <div class="row">
+              <div class="col-sm own">col-sm</div>
+              <div class="col-sm own">col-sm</div>
+              <div class="col-sm own">col-sm</div>
+            </div>
+          </div>
+          <br>         
+    </section>
+    <!-- ---------------------------------------------- -->
+    <section>        
+         <br>
+         <h1>Column</h1>
+         <div class="container">
+           <div class="row align-items-start own2">
+             <div class="col">
+               One of three columns
+             </div>
+             <div class="col">
+               One of three columns
+             </div>
+             <div class="col">
+               One of three columns
+             </div>
+           </div>
+           <div class="row align-items-center own2">
+             <div class="col">
+               One of three columns
+             </div>
+             <div class="col">
+               One of three columns
+             </div>
+             <div class="col">
+               One of three columns
+             </div>
+           </div>
+           <div class="row align-items-end own2">
+             <div class="col">
+               One of three columns
+             </div>
+             <div class="col">
+               One of three columns
+             </div>
+             <div class="col">
+               One of three columns
+             </div>
+           </div>
+         </div>
+         <br>
+         <!-- ---------------------------------------------- -->
+         <br>
+         <div class="container">
+            <div class="row own2">
+              <div class="col align-self-start">
+                One of three columns
+              </div>
+              <div class="col align-self-center">
+                One of three columns
+              </div>
+              <div class="col align-self-end">
+                One of three columns
+              </div>
+            </div>
+        </div>
+
+        <h3>Horizontal Alignment</h3>
+        <div class="container">
+            <div class="row justify-content-start own">
+              <div class="col-4 own">
+                One of two columns
+              </div>
+              <div class="col-4 own">
+                One of two columns
+              </div>
+            </div>
+            <div class="row justify-content-center own">
+              <div class="col-4 own">
+                One of two columns
+              </div>
+              <div class="col-4 own">
+                One of two columns
+              </div>
+            </div>
+            <div class="row justify-content-end own">
+              <div class="col-4 own">
+                One of two columns
+              </div>
+              <div class="col-4 own">
+                One of two columns
+              </div>
+            </div>
+            <div class="row justify-content-around own">
+              <div class="col-4 own">
+                One of two columns
+              </div>
+              <div class="col-4 own">
+                One of two columns
+              </div>
+            </div>
+            <div class="row justify-content-between own">
+              <div class="col-4 own">
+                One of two columns
+              </div>
+              <div class="col-4 own">
+                One of two columns
+              </div>
+            </div>
+            <div class="row justify-content-evenly own">
+              <div class="col-4 own">
+                One of two columns
+              </div>
+              <div class="col-4 own">
+                One of two columns
+              </div>
+            </div>
+          </div>
+
     </section>
 
 
